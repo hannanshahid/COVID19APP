@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    android:layout_height="170dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/flagimage"
+        android:layout_width="79dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/ic_arrow_drop_down_black_24dp"
+        app:civ_border_color="#3490dc"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true" />
+
+    <TextView
+        android:id="@+id/textViewcountryname"
+        android:layout_width="284dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Pakistan"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textViewc11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Total Cases:"
+        android:textSize="10dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewctotalcasesvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textSize="10dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewc12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Recoverd Cases:"
+        android:textSize="10dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewRecovers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textSize="10dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewc13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Deaths:"
+        android:textSize="10dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textViewDeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textColor="@android:color/black"
+        android:textSize="10dp" />
+    <TextView
+        android:id="@+id/textViewc14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Active Cases:"
+        android:textSize="10dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewactive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textSize="10dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textViewc15"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Crital Cases:"
+        android:textColor="@android:color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textViewcriticalcard"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textColor="@android:color/black"
+        android:textSize="10dp" />
+    <TextView
+        android:id="@+id/textViewc16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Today Cases:"
+        android:textSize="10dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewTodaycase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textSize="10dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewc17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Today Deaths:"
+        android:textSize="10dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewTodaydeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textSize="10dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewc19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Total Tests:"
+        android:textSize="10dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textViewTodaytest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="2342341234"
+        android:textSize="10dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="3dp"
+        android:background="@drawable/view_shape"
+        android:layout_height="90dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="250dp"/>
+
+
+</androidx.cardview.widget.CardView>

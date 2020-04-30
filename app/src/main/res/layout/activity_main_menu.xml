@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="393dp"
+        android:layout_height="64dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#3490dc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" >
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="51dp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/home_buuton_logo"
+            android:text="Home"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/pakbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/pak_buuton_logo"
+            android:text="Home Country"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/countriesbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/countries_button_logo"
+            android:text="Countries"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+        <Button
+            android:id="@+id/infobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/info_button_logo"
+            android:text="info"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
