@@ -10,6 +10,6 @@ object CommonForWorlddata {
     {
        return  Retrofitclient.getClient(GOOGLE_API_URL).create(RetrofitServiceForWorlddata::class.java)
 
-
+//
     }
 }
